@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Rock+Salt&display=swap');
+
+
 #content {
     max-width: 1600px;
     margin: 0 auto;
@@ -20,12 +23,20 @@ main section {
     text-align: center;
 }
 
+main section img {
+    box-sizing: border-box;
+  }  
+
 #background {
     height: 725px;
 }
 
 body {
     background-color: #154467; /* primary color */
+    font-family: Roboto, Helvetica, sans-serif;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
 }
 
 header {
@@ -35,12 +46,18 @@ header {
 nav a:hover {
     background-color: #7DC4D5; /* accent1 color */
     color: #154467; /* primary color */
+    text-align: center;
+    padding: 35px;
 }
 
 .book, .join {
     background-color: #778C99; /* accent2 color */
     color: #E6E5C8; /* secondary color */
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 
 .book:hover, .join:hover {
@@ -54,11 +71,15 @@ nav a:hover {
 
 .msg {
     background-color: #7DC4D5; /* accent1 color */
+    line-height: 1.5em;
+    padding: 35px;
 }
 
 footer {
     background-color: #778C99; /* accent2 color */
     color: #E6E5C8; /* secondary color */
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 
 footer p {
@@ -71,18 +92,32 @@ footer p a:hover {
 
 .home-title {
     color: #E6E5C8; /* secondary color */
+    font-family: "Rock Salt", Helvetica, sans-serif;
+    font-size: 2em;
+    margin-top: 10px;
+}
+
+footer .social img{
+    padding-top: 15px;
 }
 
 h4 {
     color: black;
 }
 
+h2 {
+    margin: 0;
+}
+
 .msg h2 {
     color: #154467; /* primary color */
+    font-family: "Rock Salt", Helvetica, sans-serif;
 }
 
 .msg p {
     color: #154467; /* primary color */
+    font-size: .8em;
+    padding-bottom: 15px;
 }
 
 footer a {
@@ -94,14 +129,27 @@ footer a:hover {
     color: #7DC4D5; /* accent1 color */
 }
 
+#logo_link{
+    padding-top: 5px;
+}
+
 .logo {
     width: 80px;
 }
 
 .icon {
     width: 80px;
+    padding-top: 10px;
 }
 
 #hero-img {
     width: 100%;
+}
+
+.rivers-card, .camping-card, .rapids-card{
+    margin: 200px 0;
+}
+
+.card-img{
+    border: 10px solid black;
 }
