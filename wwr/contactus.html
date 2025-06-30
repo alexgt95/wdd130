@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles/style.css" />
+    <title>Contact Us | Dry Oar Rivers</title>
+    <style>
+      .contact-section form {
+        display: flex;
+        flex-direction: column;
+        max-width: 500px;
+        margin: 0 auto;
+        padding: 20px;
+        background-color: #f9f9f9;
+        border-radius: 10px;
+      }
+      .contact-section label {
+        margin-bottom: 5px;
+        margin-top: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="content">
+      <header>
+        <a id="logo_link" href="index.html">
+          <img class="logo" src="images/logo.png" alt="Dry Oar Logo" />
+        </a>
+        <nav>
+          <a href="index.html">Home</a>
+          <a href="rivers.html">Rivers</a>
+          <a href="site-plan-rafting.html">Site Plan</a>
+          <a href="contactus.html">Contact Us</a>
+        </nav>
+      </header>
+      <main class="rivers-main">
+        <div class="page-intro">
+          <h1>Contact Us Form</h1>
+          <h2>Contact us for more information</h2>
+        </div>
+        <section class="contact-section">
+          <form action="submit_form.php" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required />
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required />
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+
+            <button type="submit" style="margin-top: 15px;">submit form</button>
+          </form>
+        </section>
+      </main>
+      <footer>
+        <p>Dry Oar &copy; 2025 - Alejandro Garcia</p>
+        <p><a href="site-plan-rafting.html">Site Plan</a></p>
+        <p><a href="contactus.html">Contact Us</a></p>
+        <div class="social">
+          <a href="https://facebook.com" target="_blank">
+            <img src="images/facebook.png" alt="fb icon" />
+          </a>
+          <a href="https://twitter.com" target="_blank">
+            <img src="images/twitter.png" alt="twitter icon" />
+          </a>
+          <a href="https://instagram.com" target="_blank">
+            <img src="images/instagram.png" alt="instagram icon" />
+          </a>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>
